@@ -39,7 +39,9 @@ const Home = () => {
          <div>
             <h2 className='text-7xl md:text-8xl text-center text-black'>iNeur<span><img className='inline-block w-[4rem] md:w-[6rem] lg:w-[8rem] animate' src={Neuron} alt="img"/></span>n</h2>  
          </div>
+         <div className='relative z-50'>
          <ChatBox/>
+         </div>
       </header>
      
       <Main/>
